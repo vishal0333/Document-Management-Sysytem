@@ -1,0 +1,32 @@
+annotated-doc==0.0.4
+annotated-types==0.7.0
+anyio==4.12.1
+asgiref==3.11.1
+click==8.3.1
+colorama==0.4.6
+Django==5.2.12
+djangorestframework==3.17.0
+fastapi==0.135.1
+h11==0.16.0
+idna==3.11
+pydantic==2.12.5
+pydantic_core==2.41.5
+sqlparse==0.5.5
+starlette==0.52.1
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.3
+uvicorn==0.42.0
+waitress==3.0.2
+
+# ...existing code...
+oracledb
+# ya specific version:
+oracledb>=1.0.0
+# ...existing code...
+
+
+# ...existing code...
+oracledb
+Office365-REST-Python-Client
+# ...existing code...

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔥 Animated Header Gradient */
+
+.header-bar {
+  background: linear-gradient(270deg,#1677ff,#06b6d4,#3b82f6);
+  background-size: 600% 600%;
+  animation: gradientMove 8s ease infinite;
+  color: white;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@keyframes gradientMove {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* ⭐ Table Hover Glow */
+.ant-table-tbody > tr:hover > td {
+  background:#f0f9ff !important;
+  transition:0.3s;
+}
+
+/* ⭐ Button Hover Animation */
+.ant-btn {
+  transition: all 0.3s ease;
+}
+
+.ant-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.approval-btn-green,
+.approval-btn-green:hover,
+.approval-btn-green:focus,
+.approval-btn-green:active {
+  background: #16a34a !important;
+  border-color: #16a34a !important;
+  color: #ffffff !important;
+}
+
+.approval-btn-yellow,
+.approval-btn-yellow:hover,
+.approval-btn-yellow:focus,
+.approval-btn-yellow:active {
+  background: #f59e0b !important;
+  border-color: #f59e0b !important;
+  color: #ffffff !important;
+}
+
+.approval-btn-purple,
+.approval-btn-purple:hover,
+.approval-btn-purple:focus,
+.approval-btn-purple:active {
+  background: #7c3aed !important;
+  border-color: #7c3aed !important;
+  color: #ffffff !important;
+}
+
+.approval-btn-indigo,
+.approval-btn-indigo:hover,
+.approval-btn-indigo:focus,
+.approval-btn-indigo:active {
+  background: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  color: #ffffff !important;
+}
+
+.approval-btn-cyan,
+.approval-btn-cyan:hover,
+.approval-btn-cyan:focus,
+.approval-btn-cyan:active {
+  background: #0891b2 !important;
+  border-color: #0891b2 !important;
+  color: #ffffff !important;
+}
+
+.approval-btn-slate,
+.approval-btn-slate:hover,
+.approval-btn-slate:focus,
+.approval-btn-slate:active {
+  background: #475569 !important;
+  border-color: #475569 !important;
+  color: #ffffff !important;
+}
+
+.approval-header-bar {
+  background: linear-gradient(90deg, #fed7aa 0%, #fdba74 48%, #fb923c 100%) !important;
+  color: #7c2d12 !important;
+  border: 1px solid #fdba74;
+  box-shadow: 0 6px 14px rgba(251, 146, 60, 0.28);
+  animation: none !important;
+}
+
+.approval-btn-light,
+.approval-btn-light:hover,
+.approval-btn-light:focus,
+.approval-btn-light:active {
+  background: #fff7ed !important;
+  border-color: #fdba74 !important;
+  color: #9a3412 !important;
+}
