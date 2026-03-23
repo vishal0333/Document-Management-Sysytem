@@ -52,7 +52,7 @@ def get_conn():
     return oracledb.connect(
         user="erpdev",
         password="erpdevtest",
-        dsn="orcldr"
+        dsn="172.16.0.9:1521/orcl"
     )
 
 
