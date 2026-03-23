@@ -1,0 +1,17 @@
+# Node
+node_modules/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env files (VERY IMPORTANT)
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
